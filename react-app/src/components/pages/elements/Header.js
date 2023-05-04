@@ -1,8 +1,12 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
-    <>
+ 
+     <Navbar bg="white" variant="light">
+        <Container>
     <div className='col-lg-3'>
    
     </div>
@@ -24,9 +28,9 @@ function Header() {
         </ul>
       </div>
     </div>
+    </Container>
+    </Navbar>
     
-    
-  </>
   )
 }
 
